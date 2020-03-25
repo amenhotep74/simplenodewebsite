@@ -25,6 +25,4 @@ app.get('/contact-me', function(req, res) {
     res.sendFile(path.join(__dirname + '/contact-me.html'));
 });
 
-
-
 app.listen(8080);
